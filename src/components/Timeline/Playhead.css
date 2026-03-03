@@ -1,0 +1,9 @@
+.playhead {
+  position: absolute;
+  top: 0;
+  width: 2px;
+  background-color: red;
+  height: var(--playhead-height, 100%);
+  left: var(--playhead-left, 0);
+  z-index: 10;
+}
