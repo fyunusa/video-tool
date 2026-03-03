@@ -1,0 +1,36 @@
+.timeline {
+  position: relative;
+  width: 100%;
+  background-color: #1f2937; /* gray-800 */
+  border: 1px solid #374151; /* gray-700 */
+  overflow-x: auto;
+  padding-left: 32px;
+}
+
+.timeline-track {
+  position: relative;
+  border-bottom: 1px solid #4b5563; /* gray-600 */
+  width: 100%;
+  height: 120px; /* default height */
+}
+
+/* Example: predefined clip positions */
+/* If you have a clip starting at 0s and width 100px */
+.timeline-clip {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background-color: #8b5cf6; /* purple-600 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 0.875rem;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+/* Example static positions */
+/* You can generate these classes dynamically in your build for different startTime/width combos */
+.clip-0-100 { left: 0px; width: 100px; }
+.clip-100-50 { left: 100px; width: 50px; }

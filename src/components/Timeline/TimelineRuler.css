@@ -1,0 +1,20 @@
+.timeline-ruler {
+  height: 2.5rem; /* 10 units */
+  background-color: #1f2937; /* gray-800 */
+  border-bottom: 1px solid #374151; /* gray-700 */
+  position: relative;
+  margin-left: 8rem; /* ml-32 */
+}
+
+.timeline-marker {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--left); /* dynamic left */
+}
+
+.timeline-marker-line {
+  width: 1px;
+  height: 100%;
+  background-color: #4b5563; /* gray-600 */
+}
