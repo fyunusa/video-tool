@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect, useRef } from 'react';
-import './Playhead.css'; // import CSS file
+import './Playhead.css';
 
 interface PlayheadProps {
   currentTime: number;

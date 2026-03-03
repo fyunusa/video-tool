@@ -1,20 +1,27 @@
 .timeline-ruler {
-  height: 2.5rem; /* 10 units */
-  background-color: #1f2937; /* gray-800 */
-  border-bottom: 1px solid #374151; /* gray-700 */
+  display: flex;
   position: relative;
-  margin-left: 8rem; /* ml-32 */
+  background: #222;
+  height: 50px;
+  align-items: flex-end;
+  padding: 0 10px;
 }
 
 .timeline-marker {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: var(--left); /* dynamic left */
+  position: relative;
+  margin-right: 10px; /* spacing between markers */
 }
 
 .timeline-marker-line {
-  width: 1px;
-  height: 100%;
-  background-color: #4b5563; /* gray-600 */
+  width: 2px;
+  height: 20px;
+  background: white;
+  margin-bottom: 5px;
+}
+
+.timeline-marker-label {
+  font-size: 10px;
+  color: white;
+  display: block;
+  text-align: center;
 }
