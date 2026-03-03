@@ -1,19 +1,16 @@
 .timeline-clip {
   position: absolute;
-  background-color: #8b5cf6; /* purple-600 */
-  left: var(--left);
-  width: var(--width);
-  height: var(--height);
   top: 2px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 0.875rem; /* text-sm */
-  border-radius: 2px;
+  background-color: #7c3aed; /* purple-600 */
   overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: white;
+  padding: 2px;
+  box-sizing: border-box;
 }
 
+/* Selected border */
 .timeline-clip.selected {
   border: 2px solid #facc15; /* yellow-500 */
 }
